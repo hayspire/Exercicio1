@@ -5,24 +5,25 @@ function calcular(operacao){
     var num2 = document.getElementById("num2").value;
   
 
-if(operacao == soma){
+if(operacao == "soma"){
 
     var resposta = num1 + num2;
-    debugger
+   
 }
-    if(operacao == subtracao){
+    if(operacao == "subtracao"){
         var resposta = num1 - num2;
-        debugger
+        
     }
-    if(operacao == multiplicacao){
+    if(operacao == "multiplicacao"){
         var resposta = num1 * num2;
-            debugger
+            
         }
        
 
-    if(operacao == divisao){
+    if(operacao == "divisao"){
         var resposta = num1/num2;
-        debugger
+        
     }
-    console.log(resposta);
+    debugger
+console.log(resposta);
 }
