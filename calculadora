@@ -3,7 +3,6 @@
         <p><div>Calculadora</div></p>
         <script type="text/javascript" src="calculadoraJV.js"></script>
      </head>
-     <body>
       Numero 1:<input id="num1" type="number"> <br />
       Numero 2:<input id="num2" type="number"> <br />
       <select id="combobox">
@@ -13,10 +12,7 @@
       <option value="multi">Multiplicação</option>
       <option value="divisao">Divisão</option>
       </select>
-
       <button onclick="calcular()">Calcular</button><br />
       Resposta: <div id="resposta"></div>
-
-
      </body>
 </html>
